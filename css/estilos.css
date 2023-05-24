@@ -1,0 +1,59 @@
+#btnVision{
+  background: rgb(3, 76, 97);
+  color: white;
+  border-radius: 14px;
+  border: none;
+}
+.VisionModal{
+  background: rgb(3, 76, 97);
+  color: white;
+  border-radius: 14px;
+  border: none;
+}
+.bordeModal{
+  border-radius: 25px!important;
+}
+td{
+  text-align: left;
+}
+/* table tr td {
+    width: 1%;
+    white-space: nowrap;
+} */
+.scroll-box {
+  /* height: 300px; */
+  overflow-x: scroll;
+}
+#right-button {
+  position: fixed;
+  top: 62%;
+  right: 6%;
+  transform: translateY(-50%);
+}
+#left-button {
+  position: fixed;
+  top: 62%;
+  /* right: 6%; */
+  transform: translateY(-50%);
+}
+
+#right-button.static {
+  position: static;
+}
+table.tablaFiltro tr th {
+  display: inline-block;
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+table.tablaFiltro tr td {
+  display: inline-block;
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+table.tablaFiltro tr{
+  display: flex;
+}
